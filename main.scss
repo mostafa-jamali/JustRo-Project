@@ -34,6 +34,7 @@ html, body{
     .download-box-navbar{
         width: 120px;
         height: 40px;
+        color: white;
         cursor: pointer;
         border-radius: 20px;
         box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
@@ -55,14 +56,72 @@ html, body{
         left: 0px;
         top: 0px;
     }
+    .slideshow-container{
+        position: relative;
+    }
+    .dot {
+        cursor: pointer;
+        height: 12px;
+        width: 12px;
+        margin: 0 5px;
+        background-color: #bdbdbd;
+        border-radius: 6px;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+      
+    .active {
+        background-color: #ff7043;
+        width: 24px;
+    }
+}
+.text-of-slideshow{
+    .p1{
+        margin-top: 29px;
+        // font-family: Shabnam-FD;
+        font-size: 25px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        // line-height: normal;
+        letter-spacing: normal;
+        text-align: right;
+        color: #007f62;
+    }
     .rectangle{
         width: 70px;
         height: 3px;
-        background-color: $primary-color;
+        background-color: #00a680;
         margin-top: 17px;
         margin-bottom: 24px;
     }
+    .p2{
+        // font-family: Shabnam-FD;
+        font-size: 16px;
+        // font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        // line-height: 1.5;
+        letter-spacing: normal;
+        text-align: right;
+        color: #000000;
+    }
 }
+
+.slideshow-container{
+    .mySlides {
+        display: none;
+    }
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    @keyframes fade {
+        from {opacity: 0.2} 
+        to {opacity: 1}
+    }
+}
+
 @media screen and (min-width: 992px) {
     .navbar-new{
         box-shadow: 0 0 0 0 !important;
