@@ -74,6 +74,12 @@ html, body{
         background-color: #ff7043;
         width: 24px;
     }
+    .icon-bar{
+        // height: 100px;
+        margin: -30px 0px 0px 0px;
+        // position: relative;
+        overflow-x: scroll;
+    }
 }
 .text-of-slideshow{
     .p1{
@@ -121,7 +127,26 @@ html, body{
         to {opacity: 1}
     }
 }
-
+.icon-bar{
+    .icon{
+        width: 72px;
+        height: 72px;
+        border: 1.5px solid #00f4bd;
+        border-radius: 36px;
+        float: left;
+        margin: 0px 0px 0px 18px;
+        position: relative;
+        box-sizing: border-box;
+    }
+    .icon:hover{
+        background-image: linear-gradient(to top, #f46739, #ff9f81);
+        border: none !important;
+        width: 76px;
+        height: 76px;
+        border-radius: 38px;
+        box-shadow: 0px 0px 5px #f46739;
+    }
+}
 @media screen and (min-width: 992px) {
     .navbar-new{
         box-shadow: 0 0 0 0 !important;
