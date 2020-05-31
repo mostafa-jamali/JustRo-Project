@@ -101,13 +101,21 @@ html, body {
   border-left: 1.5px  solid #00f4bd;
   height: 376px;
   position: absolute;
-  right: 20px;
+  right: 21px;
   top: -10px;
   z-index: -1;
 }
 
+.container-fluid .download-box {
+  border-radius: 15px;
+  box-shadow: 2.5px 4.3px 25px 0 #e5e5e5;
+  background-color: #ffffff;
+  text-align: center;
+  margin-top: 50px;
+}
+
 .hotel-jostoju {
-  font-size: 28px;
+  font-size: 25px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -214,6 +222,25 @@ html, body {
   border-bottom-left-radius: 40px;
 }
 
+.download-box .input-phone {
+  height: 40px;
+  border-radius: 25px;
+  border: solid 1px #eeeeee;
+  background-color: #fafafa;
+  outline: none;
+  text-align: left;
+}
+
+.download-box .bottom-phone {
+  height: 40px;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+  background-image: linear-gradient(to top, #e35325, #ff8a65);
+  outline: none;
+  color: #ffffff;
+}
+
 @media screen and (min-width: 992px) {
   .navbar-new {
     box-shadow: 0 0 0 0 !important;
@@ -226,7 +253,7 @@ html, body {
     font-size: 79%;
   }
   .hotel-jostoju {
-    font-size: 25px;
+    font-size: 23px;
   }
   .jostoju {
     font-size: 15px;
