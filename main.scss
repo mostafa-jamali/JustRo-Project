@@ -75,11 +75,47 @@ html, body{
         width: 24px;
     }
     .icon-bar{
-        // height: 100px;
+        height: 70px;
         margin: -30px 0px 0px 0px;
-        // position: relative;
+        position: relative;
         overflow-x: scroll;
     }
+    .mobile{
+        background: url(../assets/012_phonemockup.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        // height: 587px;
+    }
+    .icon-bar2{
+        position: relative;
+        width: 100px;
+        height: 350px;
+    }
+    .vertical-line{
+        border-left: 1.5px  solid #00f4bd;
+        height: 376px;
+        position: absolute;
+        right: 20px;
+        top: -10px;
+        z-index: -1;
+    }
+}
+.hotel-jostoju{
+    // height: 2.7px;
+    // font-family: 'Shabnam', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.75px;
+    text-align: right;
+    color: #007f62;
+    text-align: justify;
+}
+.jostoju{
+    text-align: justify;
 }
 .text-of-slideshow{
     .p1{
@@ -147,6 +183,33 @@ html, body{
         box-shadow: 0px 0px 5px #f46739;
     }
 }
+.icon-bar2{
+    .icon{
+        width: 42px;
+        height: 42px;
+        border: 1.5px solid #00f4bd;
+        border-radius: 21px;
+        margin: 0px 0px 20px 0px;
+        position: relative;
+        box-sizing: border-box;
+        background-color: #ffffff;
+    }
+    .icon:hover{
+        background-image: linear-gradient(to top, #f46739, #ff9f81);
+        border: none !important;
+        width: 46px;
+        height: 46px;
+        border-radius: 23px;
+        box-shadow: 0px 0px 5px #f46739;
+        cursor: pointer;
+    }
+}
+.mobile{
+    .mobile-content{
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+}
 @media screen and (min-width: 992px) {
     .navbar-new{
         box-shadow: 0 0 0 0 !important;
@@ -157,6 +220,12 @@ html, body{
     }
     .nav-item-new{
         font-size: 79%;
+    }
+    .hotel-jostoju{
+        font-size: 25px;
+    }
+    .jostoju{
+        font-size: 15px;
     }
 }
 @media screen and (min-width: 1200px) {

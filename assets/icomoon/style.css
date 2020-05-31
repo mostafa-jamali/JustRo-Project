@@ -60,3 +60,52 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.icon-icon_favorites:before {
+  content: "\e905";
+  font-size: 40px;
+  background: linear-gradient(to top, #00a680, #00f4bd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.icon-icon_didani2:before {
+  content: "\e900";
+  font-size: 25px;
+  background: linear-gradient(to top, #00a680, #00f4bd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;}
+.icon-icon_restaurant2:before {
+  content: "\e901";
+  font-size: 25px;
+  background: linear-gradient(to top, #00a680, #00f4bd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.icon-icon_hotel2:before {
+  content: "\e902";
+  font-size: 25px;
+  background: linear-gradient(to top, #00a680, #00f4bd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px 30px #ffffff;
+}
+.icon-icon_fly2:before {
+  content: "\e903";
+  font-size: 25px;
+  background: linear-gradient(to top, #00a680, #00f4bd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.icon-icon_nearme2:before {
+  content: "\e904";
+  font-size: 25px;
+  background: linear-gradient(to top, #00a680, #00f4bd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.icon-icon_favorites2:before {
+  content: "\e905";
+  font-size: 25px;
+  background: linear-gradient(to top, #00a680, #00f4bd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
