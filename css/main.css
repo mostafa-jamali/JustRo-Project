@@ -118,13 +118,26 @@ html, body {
   text-align: center;
 }
 
+.footer-bg .ul-border {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  border: solid 1px #ffffff;
+  background-color: transparent;
+}
+
+.footer-bg .ul-text {
+  font-size: 10px;
+  color: #ffffff;
+}
+
 .bgimg-amadegi-safar .amadegi-safar {
   text-align: center;
   background-image: url(./assets/023_amadegisafar.jpg);
 }
 
 .bgimg-amadegi-safar .bottom-amadegi-safar {
-  width: 100px;
+  width: 150px;
   height: 40px;
   border-radius: 25px;
   border: none;
