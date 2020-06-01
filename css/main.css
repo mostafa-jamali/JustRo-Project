@@ -114,6 +114,10 @@ html, body {
   margin-top: 50px;
 }
 
+.container-fluid .ide-safar {
+  text-align: center;
+}
+
 .bgimg-amadegi-safar .amadegi-safar {
   text-align: center;
   background-image: url(./assets/023_amadegisafar.jpg);
@@ -272,12 +276,43 @@ html, body {
   width: 30px;
 }
 
+.ide-safar .input-email {
+  height: 40px;
+  border-radius: 25px;
+  border: solid 1px #eeeeee;
+  background-color: #fafafa;
+  outline: none;
+  text-align: right;
+  box-shadow: 0px 4px 20px 0 rgba(0, 88, 67, 0.17);
+  background-color: #ffffff;
+}
+
+.ide-safar .bottom-email {
+  height: 40px;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+  background-image: linear-gradient(to top, #e35325, #ff8a65);
+  outline: none;
+  color: #ffffff;
+}
+
+.ide-safar .images {
+  overflow-x: scroll;
+}
+
+.images img {
+  width: 220px;
+  height: 155px;
+  margin: 0 10px;
+}
+
 @media screen and (min-width: 768px) {
   .play-store {
     transform: translateY(35px);
   }
   .bottom-amadegi-safar {
-    transform: translateY(20px);
+    transform: translateY(42px);
   }
 }
 
