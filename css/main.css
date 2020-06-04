@@ -114,6 +114,13 @@ html, body {
   margin-top: 50px;
 }
 
+.container-fluid .bgimg-amadegi-safar {
+  background-image: url(../assets/023_amadegisafar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
 .container-fluid .ide-safar {
   text-align: center;
 }
@@ -137,9 +144,14 @@ html, body {
   color: #ffffff;
 }
 
+.footer-bg .footer-wave {
+  margin: -200px 0px 0px 0px;
+  right: -350px;
+  z-index: -1;
+}
+
 .bgimg-amadegi-safar .amadegi-safar {
   text-align: center;
-  background-image: url(../assets/023_amadegisafar.jpg);
 }
 
 .bgimg-amadegi-safar .bottom-amadegi-safar {

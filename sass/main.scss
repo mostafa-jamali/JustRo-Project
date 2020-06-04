@@ -108,7 +108,11 @@ html, body{
         margin-top: 50px;
     }
     .bgimg-amadegi-safar{
+        background-image: url(../assets/023_amadegisafar.jpg) ;
         // background-image: url(../assets/022_bg_amadegisafar.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
     }
     .ide-safar{
         text-align: center;
@@ -133,15 +137,15 @@ html, body{
         font-size: 10px;
         color: #ffffff;
     }
-    .height-of-text{
-        // height: 20px;
+    .footer-wave{
+        margin: -200px 0px 0px 0px;
+        right: -350px;
+        z-index: -1;
     }
 }
 .bgimg-amadegi-safar{
     .amadegi-safar{
         text-align: center;
-        background-image: url(../assets/023_amadegisafar.jpg);
-
     } 
     .bottom-amadegi-safar{
         width: 150px;
