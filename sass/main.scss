@@ -108,16 +108,17 @@ html, body{
         margin-top: 50px;
     }
     .bgimg-amadegi-safar{
-        
+        // background-image: url(../assets/022_bg_amadegisafar.svg);
     }
     .ide-safar{
         text-align: center;
     }
     .footer-bg{
-        // width: 500px;
-        // height: 100px;
-        // background-image: url(./assets/025_footer_Bg.svg);
-        // background-size: auto;
+        // width: 100%;
+        // height: 220px;
+        background-image: url(../assets/025_footer_Bg.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 .footer-bg{
@@ -132,11 +133,14 @@ html, body{
         font-size: 10px;
         color: #ffffff;
     }
+    .height-of-text{
+        // height: 20px;
+    }
 }
 .bgimg-amadegi-safar{
     .amadegi-safar{
         text-align: center;
-        background-image: url(./assets/023_amadegisafar.jpg);
+        background-image: url(../assets/023_amadegisafar.jpg);
 
     } 
     .bottom-amadegi-safar{
@@ -319,8 +323,8 @@ html, body{
 }
 .images{
     img{
-        width: 220px;
-        height: 155px;
+        width: 200px;
+        height: 150px;
         margin: 0 10px;
     }
 }
