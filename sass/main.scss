@@ -75,10 +75,12 @@ html, body{
         width: 24px;
     }
     .icon-bar{
-        height: 70px;
+        height: 95px;
+        padding: 10px 0px;
         margin: -30px 0px 0px 0px;
         position: relative;
         overflow-x: scroll;
+        overflow-y: hidden;
     }
     .mobile{
         background: url(../assets/012_phonemockup.png);
@@ -213,11 +215,11 @@ html, body{
 }
 .icon-bar{
     .icon{
-        width: 72px;
+        min-width: 72px;
         height: 72px;
         border: 1.5px solid #00f4bd;
         border-radius: 36px;
-        float: left;
+        // float: left;
         margin: 0px 0px 0px 18px;
         position: relative;
         box-sizing: border-box;
