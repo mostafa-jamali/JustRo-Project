@@ -1,6 +1,13 @@
 // @import 'themes/theme';
 
-
+@font-face {
+    font-family: shabnam;
+    src: url(../assets/fonts/Shabnam-Bold.ttf);
+    src: url(../assets/fonts/Shabnam-Light.ttf);
+    src: url(../assets/fonts/Shabnam.eot);
+    src: url(../assets/fonts/Shabnam.ttf);
+    src: url(../assets/fonts/Shabnam.woff);
+  }
 html, body{
     width: 100%;
     height: 100%;
@@ -11,6 +18,7 @@ html, body{
 }
 *{
     box-sizing: border-box;
+    font-family: shabnam;
 }
 .container-fluid{
     .navbar-new{
@@ -20,6 +28,8 @@ html, body{
         // height: 80px;
         box-shadow: -2.5px 4.3px 15px 0 #e0e0e0;
         background-color: #ffffff;
+        position: absolute;
+        z-index: 20;
     }
     .navbar-toggler-new{
         display: flex;
@@ -56,7 +66,7 @@ html, body{
         left: 0px;
         top: 0px;
     }
-    .slideshow-container{
+    .slideshow-div{
         position: relative;
     }
     .dot {
@@ -127,6 +137,17 @@ html, body{
         background-size: cover;
     }
 }
+.navbar-new{
+    i{
+        color: #007f62;
+    }
+}
+.fa-globe-americas{
+    color: #007f62;
+}
+h3, h4{
+    color: #007f62;
+}
 .footer-bg{
     .ul-border{
         width: 8px;
@@ -176,6 +197,7 @@ html, body{
     text-align: justify;
 }
 .text-of-slideshow{
+    height: 200px;
     .p1{
         margin-top: 29px;
         // font-family: Shabnam-FD;
@@ -208,9 +230,12 @@ html, body{
     }
 }
 
-.slideshow-container{
+.slideshow-div{
     .mySlides {
         display: none;
+    }
+    .size-slide{
+        height: auto;
     }
 }
 .icon-bar{
@@ -353,6 +378,9 @@ html, body{
     }
     .slideshow-container{
         height: 500px;
+    }
+    .slideshow-div{
+        margin-top: 200px;
     }
 }
 @media screen and (min-width: 1200px) {
