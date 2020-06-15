@@ -92,21 +92,12 @@ html, body{
         overflow-x: scroll;
         overflow-y: hidden;
     }
-    .mobile{
-        background: url(../assets/012_phonemockup.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        // height: 587px;
-    }
     .icon-bar2{
         position: relative;
-        width: 100px;
-        height: 350px;
     }
     .vertical-line{
         border-left: 1.5px  solid #00f4bd;
-        height: 376px;
+        height: 100%;
         position: absolute;
         right: 21px;
         top: -10px;
@@ -264,7 +255,7 @@ h3, h4{
         height: 42px;
         border: 1.5px solid #00f4bd;
         border-radius: 21px;
-        margin: 0px 0px 20px 0px;
+        margin: 0px 0px 30px 0px;
         position: relative;
         box-sizing: border-box;
         background-color: #ffffff;
@@ -351,6 +342,11 @@ h3, h4{
         margin: 0 10px;
     }
 }
+@media screen and (max-width: 576px) {
+    .mobile{
+        max-height: 650px;
+    }
+}
 @media screen and (min-width: 768px) {
     .play-store{
         transform: translateY(35px);
@@ -381,6 +377,9 @@ h3, h4{
     }
     .slideshow-div{
         margin-top: 200px;
+    }
+    .mobile-section{
+        max-height: 750px;
     }
 }
 @media screen and (min-width: 1200px) {
