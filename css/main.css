@@ -54,6 +54,11 @@ html, body {
   justify-content: center;
 }
 
+.container-fluid .download-box-navbar:hover {
+  box-shadow: 0px 7px 3px 0 rgba(227, 84, 39, 0.3);
+  background-image: linear-gradient(to bottom right, #e93d03, #fcaf97);
+}
+
 .container-fluid .logo-image-top {
   position: absolute;
   z-index: -1;
@@ -119,11 +124,29 @@ html, body {
   margin-top: 50px;
 }
 
-.container-fluid .bgimg-amadegi-safar {
-  background-image: url(../assets/023_amadegisafar.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
+.container-fluid .amadegi-safar {
+  z-index: 20;
+  height: 350px;
+}
+
+.container-fluid .bg-amadegi-safar1 {
+  position: relative;
+  margin-top: -350px;
+  height: 350px;
+}
+
+.container-fluid .bg-green-color {
+  position: relative;
+  margin-top: -362px;
+  height: 350px;
+  opacity: 0.7;
+  background-color: #013f31;
+}
+
+.container-fluid .bg-amadegi-safar2 {
+  position: relative;
+  margin-top: -350px;
+  height: 350px;
 }
 
 .container-fluid .ide-safar {
@@ -167,11 +190,16 @@ h3, h4 {
   z-index: -1;
 }
 
-.bgimg-amadegi-safar .amadegi-safar {
+.amadegi-safar .amadegi-safar-text {
   text-align: center;
+  color: #ffffff;
 }
 
-.bgimg-amadegi-safar .bottom-amadegi-safar {
+.amadegi-safar .amadegi-safar-text p {
+  opacity: 0.8;
+}
+
+.amadegi-safar .bottom-amadegi-safar {
   width: 150px;
   height: 40px;
   border-radius: 25px;
@@ -302,12 +330,17 @@ h3, h4 {
   color: #ffffff;
 }
 
+.download-box .bottom-phone:hover {
+  box-shadow: 0px 7px 3px 0 rgba(227, 84, 39, 0.3);
+  background-image: linear-gradient(to bottom right, #e93d03, #fcaf97);
+}
+
 .download-box .play-store {
   height: 40px;
   border-radius: 20px;
   border: none;
   box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
-  background-image: linear-gradient(to top, #00a680, #00f4bd);
+  background-image: linear-gradient(to top, #02a37e, #2dd6af);
   outline: none;
   color: #ffffff;
   font-size: 14px;
@@ -315,6 +348,11 @@ h3, h4 {
 
 .play-store .bazar-icon {
   width: 30px;
+}
+
+.play-store:hover {
+  box-shadow: 0px 7px 3px 0 rgba(0, 127, 98, 0.25);
+  background-image: linear-gradient(to bottom right, #00c597, #53ffd4);
 }
 
 .ide-safar .input-email {
@@ -336,6 +374,11 @@ h3, h4 {
   background-image: linear-gradient(to top, #e35325, #ff8a65);
   outline: none;
   color: #ffffff;
+}
+
+.ide-safar .bottom-email:hover {
+  box-shadow: 0px 7px 3px 0 rgba(227, 84, 39, 0.3);
+  background-image: linear-gradient(to bottom right, #e93d03, #fcaf97);
 }
 
 .ide-safar .images {
@@ -384,15 +427,22 @@ h3, h4 {
   .play-store {
     transform: translateY(35px);
   }
-  .bottom-amadegi-safar {
-    transform: translateY(42px);
-  }
 }
 
 @media screen and (min-width: 992px) {
   .navbar-new {
     box-shadow: 0 0 0 0 !important;
     background-color: transparent !important;
+  }
+  .amadegi-safar-text {
+    margin-top: 100px;
+  }
+  .bottom-amadegi-safar {
+    transform: translateY(20px);
+  }
+  .bottom-amadegi-safar:hover {
+    box-shadow: 0px 7px 3px 0 rgba(227, 84, 39, 0.3);
+    background-image: linear-gradient(to bottom right, #e93d03, #fcaf97);
   }
   .navbar-nav-new {
     direction: rtl;
@@ -420,6 +470,15 @@ h3, h4 {
 @media screen and (min-width: 1200px) {
   .nav-item-new {
     font-size: 95%;
+  }
+  .bottom-amadegi-safar {
+    transform: translateY(30px);
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .bottom-amadegi-safar {
+    transform: translateY(45px);
   }
 }
 
