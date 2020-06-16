@@ -348,6 +348,32 @@ h3, h4 {
   margin: 0 10px;
 }
 
+.images .image-hover {
+  display: none;
+}
+
+.images .image-hover p {
+  color: white;
+  margin-top: auto;
+  opacity: 1;
+}
+
+.images .image:hover .image-hover {
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  opacity: 0.6;
+  background-color: #000000;
+  z-index: 10;
+  margin: -50px 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
 @media screen and (max-width: 576px) {
   .mobile {
     max-height: 650px;
